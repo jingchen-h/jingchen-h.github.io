@@ -7,7 +7,7 @@
     background: transparent !important;
   }
   
-  /* 白天模式遮罩透明 */
+  /* 白天模式遮罩透明
 #footer::before {
     background: transparent !important;
   }
@@ -25,10 +25,10 @@
 
 div#post {
     /* 最后一个值为透明度可以自己指定 */
-    background: rgba(255,255,255,.82);
+    background: rgba(255,255,255,.7);
     /* 透明模糊亚克力 */
     backdrop-filter: var(--backdrop-filter);
-}
+  }
 
 
 
@@ -328,8 +328,8 @@ div#post {
 
 /* 页面样式-抹角等 */
 :root {
-  --trans-light: rgba(255, 255, 255, 0.70);
-  --trans-dark: rgba(25, 25, 25, 0.6);
+  --trans-light: rgba(255, 255, 255, 0.88);
+  --trans-dark: rgba(25, 25, 25, 0.88);
   --border-style: 1px solid rgb(169, 169, 169);
   --backdrop-filter: blur(5px) saturate(150%);
 }

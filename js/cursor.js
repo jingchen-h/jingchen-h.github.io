@@ -1,3 +1,6 @@
+/* 听话鼠标 */
+
+
 var CURSOR;
 
 Math.lerp = (a, b, n) => (1 - n) * a + n * b;

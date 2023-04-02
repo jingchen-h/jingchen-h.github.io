@@ -36,25 +36,6 @@
     
     
     <entry>
-      <title>第三篇文章</title>
-      <link href="//%5Bobject%20Object%5D/2023/03/29/2023-3-29-%E7%AC%AC%E4%B8%89%E7%AF%87%E6%96%87%E7%AB%A0/"/>
-      <url>//%5Bobject%20Object%5D/2023/03/29/2023-3-29-%E7%AC%AC%E4%B8%89%E7%AF%87%E6%96%87%E7%AB%A0/</url>
-      
-        <content type="html"><![CDATA[<h2 id="我的第三篇文章"><a href="#我的第三篇文章" class="headerlink" title="我的第三篇文章!"></a>我的第三篇文章!</h2>]]></content>
-      
-      
-      <categories>
-          
-          <category> Hexo </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>第二篇文章</title>
       <link href="//%5Bobject%20Object%5D/2023/03/29/2023-3-29-%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%96%87%E7%AB%A0/"/>
       <url>//%5Bobject%20Object%5D/2023/03/29/2023-3-29-%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%96%87%E7%AB%A0/</url>
@@ -91,6 +72,25 @@
     </entry>
     
     
+    
+    <entry>
+      <title>第三篇文章</title>
+      <link href="//%5Bobject%20Object%5D/2023/03/29/2023-3-29-%E7%AC%AC%E4%B8%89%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+      <url>//%5Bobject%20Object%5D/2023/03/29/2023-3-29-%E7%AC%AC%E4%B8%89%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+      
+        <content type="html"><![CDATA[<h2 id="我的第三篇文章"><a href="#我的第三篇文章" class="headerlink" title="我的第三篇文章!"></a>我的第三篇文章!</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> Hexo </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
   
   
     
@@ -101,6 +101,17 @@
       <url>/about/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/css/progress_bar.css"/>
+      <url>/css/progress_bar.css</url>
+      
+        <content type="html"><![CDATA[/* 博客加载条 */.pace {    -webkit-pointer-events: none;    pointer-events: none;    -webkit-user-select: none;    -moz-user-select: none;    user-select: none;    z-index: 2000;    position: fixed;    margin: auto;    top: 4px;    left: 0;    right: 0;    height: 8px;    border-radius: 8px;    width: 7rem;    background: #eaecf2;    border: 1px #e3e8f7;    overflow: hidden}.pace-inactive .pace-progress {    opacity: 0;    transition: .3s ease-in}.pace .pace-progress {    -webkit-box-sizing: border-box;    -moz-box-sizing: border-box;    -ms-box-sizing: border-box;    -o-box-sizing: border-box;    box-sizing: border-box;    -webkit-transform: translate3d(0, 0, 0);    -moz-transform: translate3d(0, 0, 0);    -ms-transform: translate3d(0, 0, 0);    -o-transform: translate3d(0, 0, 0);    transform: translate3d(0, 0, 0);    max-width: 200px;    position: absolute;    z-index: 2000;    display: block;    top: 0;    right: 100%;    height: 100%;    width: 100%;    /* linear-gradient(to right, #3494e6, #ec6ead) */    background: linear-gradient(to right, #43cea2, #3866ca);    animation: gradient 2s ease infinite;    background-size: 200%}.pace.pace-inactive {    opacity: 0;    transition: .3s;    top: -8px}]]></content>
       
     </entry>
     
@@ -119,10 +130,10 @@
     
     <entry>
       <title></title>
-      <link href="/css/progress_bar.css"/>
-      <url>/css/progress_bar.css</url>
+      <link href="/css/universe.css"/>
+      <url>/css/universe.css</url>
       
-        <content type="html"><![CDATA[/* 博客加载条 */.pace {    -webkit-pointer-events: none;    pointer-events: none;    -webkit-user-select: none;    -moz-user-select: none;    user-select: none;    z-index: 2000;    position: fixed;    margin: auto;    top: 4px;    left: 0;    right: 0;    height: 8px;    border-radius: 8px;    width: 7rem;    background: #eaecf2;    border: 1px #e3e8f7;    overflow: hidden}.pace-inactive .pace-progress {    opacity: 0;    transition: .3s ease-in}.pace .pace-progress {    -webkit-box-sizing: border-box;    -moz-box-sizing: border-box;    -ms-box-sizing: border-box;    -o-box-sizing: border-box;    box-sizing: border-box;    -webkit-transform: translate3d(0, 0, 0);    -moz-transform: translate3d(0, 0, 0);    -ms-transform: translate3d(0, 0, 0);    -o-transform: translate3d(0, 0, 0);    transform: translate3d(0, 0, 0);    max-width: 200px;    position: absolute;    z-index: 2000;    display: block;    top: 0;    right: 100%;    height: 100%;    width: 100%;    /* linear-gradient(to right, #3494e6, #ec6ead) */    background: linear-gradient(to right, #43cea2, #3866ca);    animation: gradient 2s ease infinite;    background-size: 200%}.pace.pace-inactive {    opacity: 0;    transition: .3s;    top: -8px}]]></content>
+        <content type="html"><![CDATA[/* 背景宇宙星光  */#universe{    display: block;    position: fixed;    margin: 0;    padding: 0;    border: 0;    outline: 0;    left: 0;    top: 0;    width: 100%;    height: 100%;    pointer-events: none;    /* 这个是调置顶的优先级的，-1在文章页下面，背景上面，个人推荐这种 */    z-index: -1;  }]]></content>
       
     </entry>
     
@@ -145,17 +156,6 @@
       <url>/categories/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/css/universe.css"/>
-      <url>/css/universe.css</url>
-      
-        <content type="html"><![CDATA[/* 背景宇宙星光  */#universe{    display: block;    position: fixed;    margin: 0;    padding: 0;    border: 0;    outline: 0;    left: 0;    top: 0;    width: 100%;    height: 100%;    pointer-events: none;    /* 这个是调置顶的优先级的，-1在文章页下面，背景上面，个人推荐这种 */    z-index: -1;  }]]></content>
       
     </entry>
     
@@ -196,17 +196,6 @@
     
     <entry>
       <title></title>
-      <link href="/js/rightmenu.js"/>
-      <url>/js/rightmenu.js</url>
-      
-        <content type="html"><![CDATA[function setMask() {    //设置遮罩    if (document.getElementsByClassName("rmMask")[0] != undefined)        return document.getElementsByClassName("rmMask")[0];    mask = document.createElement('div');    mask.className = "rmMask";    mask.style.width = window.innerWidth + 'px';    mask.style.height = window.innerHeight + 'px';    mask.style.background = '#fff';    mask.style.opacity = '.0';    mask.style.position = 'fixed';    mask.style.top = '0';    mask.style.left = '0';    mask.style.zIndex = 998;    document.body.appendChild(mask);    document.getElementById("rightMenu").style.zIndex = 19198;    return mask;}function insertAtCursor(myField, myValue) {    //IE 浏览器    if (document.selection) {        myField.focus();        sel = document.selection.createRange();        sel.text = myValue;        sel.select();    }    //FireFox、Chrome等    else if (myField.selectionStart || myField.selectionStart == '0') {        var startPos = myField.selectionStart;        var endPos = myField.selectionEnd;        // 保存滚动条        var restoreTop = myField.scrollTop;        myField.value = myField.value.substring(0, startPos) + myValue + myField.value.substring(endPos, myField.value.length);        if (restoreTop > 0) {            myField.scrollTop = restoreTop;        }        myField.focus();        myField.selectionStart = startPos + myValue.length;        myField.selectionEnd = startPos + myValue.length;    } else {        myField.value += myValue;        myField.focus();    }}let rmf = {};rmf.showRightMenu = function (isTrue, x = 0, y = 0) {    let $rightMenu = $('#rightMenu');    $rightMenu.css('top', x + 'px').css('left', y + 'px');    if (isTrue) {        $rightMenu.show();    } else {        $rightMenu.hide();    }}rmf.copyWordsLink = function () {    let url = window.location.href    let txa = document.createElement("textarea");    txa.value = url;    document.body.appendChild(txa)    txa.select();    document.execCommand("Copy");    document.body.removeChild(txa);}rmf.switchReadMode = function () {    const $body = document.body    $body.classList.add('read-mode')    const newEle = document.createElement('button')    newEle.type = 'button'    newEle.className = 'fas fa-sign-out-alt exit-readmode'    $body.appendChild(newEle)    function clickFn() {        $body.classList.remove('read-mode')        newEle.remove()        newEle.removeEventListener('click', clickFn)    }    newEle.addEventListener('click', clickFn)}//复制选中文字rmf.copySelect = function () {    document.execCommand('Copy', false, null);}//回到顶部rmf.scrollToTop = function () {    document.getElementsByClassName("menus_items")[1].setAttribute("style", "");    document.getElementById("name-container").setAttribute("style", "display:none");    btf.scrollToDest(0, 500);}document.body.addEventListener('touchmove', function () {}, { passive: false });function popupMenu() {    window.oncontextmenu = function (event) {        // if (event.ctrlKey) return true;        // 当关掉自定义右键时候直接返回        if (mouseMode == "off") return true;        $('.rightMenu-group.hide').hide();        if (document.getSelection().toString()) {            $('#menu-text').show();        }        if (document.getElementById('post')) {            $('#menu-post').show();        } else {            if (document.getElementById('page')) {                $('#menu-post').show();            }        }        var el = window.document.body;        el = event.target;        var a = /^(?:http(s)?:\/\/)?[\w.-]+(?:\.[\w\.-]+)+[\w\-\._~:/?#[\]@!\$&'\*\+,;=.]+$/        if (a.test(window.getSelection().toString()) && el.tagName != "A") {            $('#menu-too').show()        }        if (el.tagName == 'A') {            $('#menu-to').show()            rmf.open = function () {                if (el.href.indexOf("http://") == -1 && el.href.indexOf("https://") == -1 || el.href.indexOf("yisous.xyz") != -1) {                    pjax.loadUrl(el.href)                }                else {                    location.href = el.href                }            }            rmf.openWithNewTab = function () {                window.open(el.href);                // window.location.reload();            }            rmf.copyLink = function () {                let url = el.href                let txa = document.createElement("textarea");                txa.value = url;                document.body.appendChild(txa)                txa.select();                document.execCommand("Copy");                document.body.removeChild(txa);            }        } else if (el.tagName == 'IMG') {            $('#menu-img').show()            rmf.openWithNewTab = function () {                window.open(el.src);                // window.location.reload();            }            rmf.click = function () {                el.click()            }            rmf.copyLink = function () {                let url = el.src                let txa = document.createElement("textarea");                txa.value = url;                document.body.appendChild(txa)                txa.select();                document.execCommand("Copy");                document.body.removeChild(txa);            }            rmf.saveAs = function () {                var a = document.createElement('a');                var url = el.src;                var filename = url.split("/")[-1];                a.href = url;                a.download = filename;                a.click();                window.URL.revokeObjectURL(url);            }        } else if (el.tagName == "TEXTAREA" || el.tagName == "INPUT") {            $('#menu-paste').show();            rmf.paste = function () {                navigator.permissions                    .query({                        name: 'clipboard-read'                    })                    .then(result => {                        if (result.state == 'granted' || result.state == 'prompt') {                            //读取剪贴板                            navigator.clipboard.readText().then(text => {                                console.log(text)                                insertAtCursor(el, text)                            })                        } else {                            Snackbar.show({                                text: '请允许读取剪贴板！',                                pos: 'top-center',                                showAction: false,                            })                        }                    })            }        }        let pageX = event.clientX + 10;        let pageY = event.clientY;        let rmWidth = $('#rightMenu').width();        let rmHeight = $('#rightMenu').height();        if (pageX + rmWidth > window.innerWidth) {            pageX -= rmWidth + 10;        }        if (pageY + rmHeight > window.innerHeight) {            pageY -= pageY + rmHeight - window.innerHeight;        }        mask = setMask();        // 滚动消失的代码和阅读进度有冲突，因此放到readPercent.js里面了        $(".rightMenu-item").click(() => {            $('.rmMask').attr('style', 'display: none');        })        $(window).resize(() => {            rmf.showRightMenu(false);            $('.rmMask').attr('style', 'display: none');        })        mask.onclick = () => {            $('.rmMask').attr('style', 'display: none');        }        rmf.showRightMenu(true, pageY, pageX);        $('.rmMask').attr('style', 'display: flex');        return false;    };    window.addEventListener('click', function () {        rmf.showRightMenu(false);    });}if (!(navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {    popupMenu()}const box = document.documentElementfunction addLongtabListener(target, callback) {    let timer = 0 // 初始化timer    target.ontouchstart = () => {        timer = 0 // 重置timer        timer = setTimeout(() => {            callback();            timer = 0        }, 380) // 超时器能成功执行，说明是长按    }    target.ontouchmove = () => {        clearTimeout(timer) // 如果来到这里，说明是滑动        timer = 0    }    target.ontouchend = () => { // 到这里如果timer有值，说明此触摸时间不足380ms，是点击        if (timer) {            clearTimeout(timer)        }    }}addLongtabListener(box, popupMenu)// 全屏rmf.fullScreen = function () {    if (document.fullscreenElement) document.exitFullscreen();    else document.documentElement.requestFullscreen();}// 右键开关if (localStorage.getItem("mouse") == undefined) {    localStorage.setItem("mouse", "on");}var mouseMode = localStorage.getItem("mouse");function changeMouseMode() {    if (localStorage.getItem("mouse") == "on") {        mouseMode = "off";        localStorage.setItem("mouse", "off");        debounce(function () {            new Vue({                data: function () {                    this.$notify({                        title: "切换右键模式成功🍔",                        message: "当前鼠标右键已恢复为系统默认！",                        position: 'top-left',                        offset: 50,                        showClose: true,                        type: "success",                        duration: 5000                    });                }            })        }, 300);    } else {        mouseMode = "on";        localStorage.setItem("mouse", "on");        debounce(function () {            new Vue({                data: function () {                    this.$notify({                        title: "切换右键模式成功🍔",                        message: "当前鼠标右键已更换为网站指定样式！",                        position: 'top-left',                        offset: 50,                        showClose: true,                        type: "success",                        duration: 5000                    });                }            })        }, 300);    }}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
       <link href="/js/runtime.js"/>
       <url>/js/runtime.js</url>
       
@@ -240,6 +229,17 @@
     
     <entry>
       <title></title>
+      <link href="/js/rightmenu.js"/>
+      <url>/js/rightmenu.js</url>
+      
+        <content type="html"><![CDATA[function setMask() {    //设置遮罩    if (document.getElementsByClassName("rmMask")[0] != undefined)        return document.getElementsByClassName("rmMask")[0];    mask = document.createElement('div');    mask.className = "rmMask";    mask.style.width = window.innerWidth + 'px';    mask.style.height = window.innerHeight + 'px';    mask.style.background = '#fff';    mask.style.opacity = '.0';    mask.style.position = 'fixed';    mask.style.top = '0';    mask.style.left = '0';    mask.style.zIndex = 998;    document.body.appendChild(mask);    document.getElementById("rightMenu").style.zIndex = 19198;    return mask;}function insertAtCursor(myField, myValue) {    //IE 浏览器    if (document.selection) {        myField.focus();        sel = document.selection.createRange();        sel.text = myValue;        sel.select();    }    //FireFox、Chrome等    else if (myField.selectionStart || myField.selectionStart == '0') {        var startPos = myField.selectionStart;        var endPos = myField.selectionEnd;        // 保存滚动条        var restoreTop = myField.scrollTop;        myField.value = myField.value.substring(0, startPos) + myValue + myField.value.substring(endPos, myField.value.length);        if (restoreTop > 0) {            myField.scrollTop = restoreTop;        }        myField.focus();        myField.selectionStart = startPos + myValue.length;        myField.selectionEnd = startPos + myValue.length;    } else {        myField.value += myValue;        myField.focus();    }}let rmf = {};rmf.showRightMenu = function (isTrue, x = 0, y = 0) {    let $rightMenu = $('#rightMenu');    $rightMenu.css('top', x + 'px').css('left', y + 'px');    if (isTrue) {        $rightMenu.show();    } else {        $rightMenu.hide();    }}rmf.copyWordsLink = function () {    let url = window.location.href    let txa = document.createElement("textarea");    txa.value = url;    document.body.appendChild(txa)    txa.select();    document.execCommand("Copy");    document.body.removeChild(txa);}rmf.switchReadMode = function () {    const $body = document.body    $body.classList.add('read-mode')    const newEle = document.createElement('button')    newEle.type = 'button'    newEle.className = 'fas fa-sign-out-alt exit-readmode'    $body.appendChild(newEle)    function clickFn() {        $body.classList.remove('read-mode')        newEle.remove()        newEle.removeEventListener('click', clickFn)    }    newEle.addEventListener('click', clickFn)}//复制选中文字rmf.copySelect = function () {    document.execCommand('Copy', false, null);}//回到顶部rmf.scrollToTop = function () {    document.getElementsByClassName("menus_items")[1].setAttribute("style", "");    document.getElementById("name-container").setAttribute("style", "display:none");    btf.scrollToDest(0, 500);}document.body.addEventListener('touchmove', function () {}, { passive: false });function popupMenu() {    window.oncontextmenu = function (event) {        // if (event.ctrlKey) return true;        // 当关掉自定义右键时候直接返回        if (mouseMode == "off") return true;        $('.rightMenu-group.hide').hide();        if (document.getSelection().toString()) {            $('#menu-text').show();        }        if (document.getElementById('post')) {            $('#menu-post').show();        } else {            if (document.getElementById('page')) {                $('#menu-post').show();            }        }        var el = window.document.body;        el = event.target;        var a = /^(?:http(s)?:\/\/)?[\w.-]+(?:\.[\w\.-]+)+[\w\-\._~:/?#[\]@!\$&'\*\+,;=.]+$/        if (a.test(window.getSelection().toString()) && el.tagName != "A") {            $('#menu-too').show()        }        if (el.tagName == 'A') {            $('#menu-to').show()            rmf.open = function () {                if (el.href.indexOf("http://") == -1 && el.href.indexOf("https://") == -1 || el.href.indexOf("yisous.xyz") != -1) {                    pjax.loadUrl(el.href)                }                else {                    location.href = el.href                }            }            rmf.openWithNewTab = function () {                window.open(el.href);                // window.location.reload();            }            rmf.copyLink = function () {                let url = el.href                let txa = document.createElement("textarea");                txa.value = url;                document.body.appendChild(txa)                txa.select();                document.execCommand("Copy");                document.body.removeChild(txa);            }        } else if (el.tagName == 'IMG') {            $('#menu-img').show()            rmf.openWithNewTab = function () {                window.open(el.src);                // window.location.reload();            }            rmf.click = function () {                el.click()            }            rmf.copyLink = function () {                let url = el.src                let txa = document.createElement("textarea");                txa.value = url;                document.body.appendChild(txa)                txa.select();                document.execCommand("Copy");                document.body.removeChild(txa);            }            rmf.saveAs = function () {                var a = document.createElement('a');                var url = el.src;                var filename = url.split("/")[-1];                a.href = url;                a.download = filename;                a.click();                window.URL.revokeObjectURL(url);            }        } else if (el.tagName == "TEXTAREA" || el.tagName == "INPUT") {            $('#menu-paste').show();            rmf.paste = function () {                navigator.permissions                    .query({                        name: 'clipboard-read'                    })                    .then(result => {                        if (result.state == 'granted' || result.state == 'prompt') {                            //读取剪贴板                            navigator.clipboard.readText().then(text => {                                console.log(text)                                insertAtCursor(el, text)                            })                        } else {                            Snackbar.show({                                text: '请允许读取剪贴板！',                                pos: 'top-center',                                showAction: false,                            })                        }                    })            }        }        let pageX = event.clientX + 10;        let pageY = event.clientY;        let rmWidth = $('#rightMenu').width();        let rmHeight = $('#rightMenu').height();        if (pageX + rmWidth > window.innerWidth) {            pageX -= rmWidth + 10;        }        if (pageY + rmHeight > window.innerHeight) {            pageY -= pageY + rmHeight - window.innerHeight;        }        mask = setMask();        // 滚动消失的代码和阅读进度有冲突，因此放到readPercent.js里面了        $(".rightMenu-item").click(() => {            $('.rmMask').attr('style', 'display: none');        })        $(window).resize(() => {            rmf.showRightMenu(false);            $('.rmMask').attr('style', 'display: none');        })        mask.onclick = () => {            $('.rmMask').attr('style', 'display: none');        }        rmf.showRightMenu(true, pageY, pageX);        $('.rmMask').attr('style', 'display: flex');        return false;    };    window.addEventListener('click', function () {        rmf.showRightMenu(false);    });}if (!(navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {    popupMenu()}const box = document.documentElementfunction addLongtabListener(target, callback) {    let timer = 0 // 初始化timer    target.ontouchstart = () => {        timer = 0 // 重置timer        timer = setTimeout(() => {            callback();            timer = 0        }, 380) // 超时器能成功执行，说明是长按    }    target.ontouchmove = () => {        clearTimeout(timer) // 如果来到这里，说明是滑动        timer = 0    }    target.ontouchend = () => { // 到这里如果timer有值，说明此触摸时间不足380ms，是点击        if (timer) {            clearTimeout(timer)        }    }}addLongtabListener(box, popupMenu)// 全屏rmf.fullScreen = function () {    if (document.fullscreenElement) document.exitFullscreen();    else document.documentElement.requestFullscreen();}// 右键开关if (localStorage.getItem("mouse") == undefined) {    localStorage.setItem("mouse", "on");}var mouseMode = localStorage.getItem("mouse");function changeMouseMode() {    if (localStorage.getItem("mouse") == "on") {        mouseMode = "off";        localStorage.setItem("mouse", "off");        debounce(function () {            new Vue({                data: function () {                    this.$notify({                        title: "切换右键模式成功🍔",                        message: "当前鼠标右键已恢复为系统默认！",                        position: 'top-left',                        offset: 50,                        showClose: true,                        type: "success",                        duration: 5000                    });                }            })        }, 300);    } else {        mouseMode = "on";        localStorage.setItem("mouse", "on");        debounce(function () {            new Vue({                data: function () {                    this.$notify({                        title: "切换右键模式成功🍔",                        message: "当前鼠标右键已更换为网站指定样式！",                        position: 'top-left',                        offset: 50,                        showClose: true,                        type: "success",                        duration: 5000                    });                }            })        }, 300);    }}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
       <link href="/js/title.js"/>
       <url>/js/title.js</url>
       
@@ -255,6 +255,17 @@
       <url>/js/universe.js</url>
       
         <content type="html"><![CDATA[function dark() {window.requestAnimationFrame=window.requestAnimationFrame||window.mozRequestAnimationFrame||window.webkitRequestAnimationFrame||window.msRequestAnimationFrame;var n,e,i,h,t=.05,s=document.getElementById("universe"),o=!0,a="180,184,240",r="226,225,142",d="226,225,224",c=[];function f(){n=window.innerWidth,e=window.innerHeight,i=.216*n,s.setAttribute("width",n),s.setAttribute("height",e)}function u(){h.clearRect(0,0,n,e);for(var t=c.length,i=0;i<t;i++){var s=c[i];s.move(),s.fadeIn(),s.fadeOut(),s.draw()}}function y(){this.reset=function(){this.giant=m(3),this.comet=!this.giant&&!o&&m(10),this.x=l(0,n-10),this.y=l(0,e),this.r=l(1.1,2.6),this.dx=l(t,6*t)+(this.comet+1-1)*t*l(50,120)+2*t,this.dy=-l(t,6*t)-(this.comet+1-1)*t*l(50,120),this.fadingOut=null,this.fadingIn=!0,this.opacity=0,this.opacityTresh=l(.2,1-.4*(this.comet+1-1)),this.do=l(5e-4,.002)+.001*(this.comet+1-1)},this.fadeIn=function(){this.fadingIn&&(this.fadingIn=!(this.opacity>this.opacityTresh),this.opacity+=this.do)},this.fadeOut=function(){this.fadingOut&&(this.fadingOut=!(this.opacity<0),this.opacity-=this.do/2,(this.x>n||this.y<0)&&(this.fadingOut=!1,this.reset()))},this.draw=function(){if(h.beginPath(),this.giant)h.fillStyle="rgba("+a+","+this.opacity+")",h.arc(this.x,this.y,2,0,2*Math.PI,!1);else if(this.comet){h.fillStyle="rgba("+d+","+this.opacity+")",h.arc(this.x,this.y,1.5,0,2*Math.PI,!1);for(var t=0;t<30;t++)h.fillStyle="rgba("+d+","+(this.opacity-this.opacity/20*t)+")",h.rect(this.x-this.dx/4*t,this.y-this.dy/4*t-2,2,2),h.fill()}else h.fillStyle="rgba("+r+","+this.opacity+")",h.rect(this.x,this.y,this.r,this.r);h.closePath(),h.fill()},this.move=function(){this.x+=this.dx,this.y+=this.dy,!1===this.fadingOut&&this.reset(),(this.x>n-n/4||this.y<0)&&(this.fadingOut=!0)},setTimeout(function(){o=!1},50)}function m(t){return Math.floor(1e3*Math.random())+1<10*t}function l(t,i){return Math.random()*(i-t)+t}f(),window.addEventListener("resize",f,!1),function(){h=s.getContext("2d");for(var t=0;t<i;t++)c[t]=new y,c[t].reset();u()}(),function t(){document.getElementsByTagName('html')[0].getAttribute('data-theme')=='dark'&&u(),window.requestAnimationFrame(t)}()};dark()]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>电影</title>
+      <link href="/movies/index.html"/>
+      <url>/movies/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -286,17 +297,6 @@
       <title>tags</title>
       <link href="/tags/index.html"/>
       <url>/tags/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>电影</title>
-      <link href="/movies/index.html"/>
-      <url>/movies/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       

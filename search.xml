@@ -143,10 +143,10 @@
     
     <entry>
       <title></title>
-      <link href="/css/font.css"/>
-      <url>/css/font.css</url>
+      <link href="/css/progress_bar.css"/>
+      <url>/css/progress_bar.css</url>
       
-        <content type="html"><![CDATA[@font-face {    /* 为载入的字体取名字(随意) */    font-family: 'Consola';    /* 字体文件地址(相对或者绝对路径都可以) */    src: url(/font/consola.ttf);    /* 定义加粗样式(加粗多少) */    font-weight: normal;    /* 定义字体样式(斜体/非斜体) */    font-style: normal;    /* 定义显示样式 */    font-display: block;  }@font-face {    /* 为载入的字体取名字(随意) */    font-family: 'TTBZ';    /* 字体文件地址(相对或者绝对路径都可以) */    src: url(/font/ttboz.ttf);    /* 定义加粗样式(加粗多少) */    font-weight: normal;    /* 定义字体样式(斜体/非斜体) */    font-style: normal;    /* 定义显示样式 */    font-display: block;  }]]></content>
+        <content type="html"><![CDATA[/* 博客加载条 */.pace {    -webkit-pointer-events: none;    pointer-events: none;    -webkit-user-select: none;    -moz-user-select: none;    user-select: none;    z-index: 2000;    position: fixed;    margin: auto;    top: 4px;    left: 0;    right: 0;    height: 8px;    border-radius: 8px;    width: 7rem;    background: #eaecf2;    border: 1px #e3e8f7;    overflow: hidden}.pace-inactive .pace-progress {    opacity: 0;    transition: .3s ease-in}.pace .pace-progress {    -webkit-box-sizing: border-box;    -moz-box-sizing: border-box;    -ms-box-sizing: border-box;    -o-box-sizing: border-box;    box-sizing: border-box;    -webkit-transform: translate3d(0, 0, 0);    -moz-transform: translate3d(0, 0, 0);    -ms-transform: translate3d(0, 0, 0);    -o-transform: translate3d(0, 0, 0);    transform: translate3d(0, 0, 0);    max-width: 200px;    position: absolute;    z-index: 2000;    display: block;    top: 0;    right: 100%;    height: 100%;    width: 100%;    /* linear-gradient(to right, #3494e6, #ec6ead) */    background: linear-gradient(to right, #43cea2, #3866ca);    animation: gradient 2s ease infinite;    background-size: 200%}.pace.pace-inactive {    opacity: 0;    transition: .3s;    top: -8px}]]></content>
       
     </entry>
     
@@ -154,10 +154,10 @@
     
     <entry>
       <title></title>
-      <link href="/css/progress_bar.css"/>
-      <url>/css/progress_bar.css</url>
+      <link href="/css/font.css"/>
+      <url>/css/font.css</url>
       
-        <content type="html"><![CDATA[/* 博客加载条 */.pace {    -webkit-pointer-events: none;    pointer-events: none;    -webkit-user-select: none;    -moz-user-select: none;    user-select: none;    z-index: 2000;    position: fixed;    margin: auto;    top: 4px;    left: 0;    right: 0;    height: 8px;    border-radius: 8px;    width: 7rem;    background: #eaecf2;    border: 1px #e3e8f7;    overflow: hidden}.pace-inactive .pace-progress {    opacity: 0;    transition: .3s ease-in}.pace .pace-progress {    -webkit-box-sizing: border-box;    -moz-box-sizing: border-box;    -ms-box-sizing: border-box;    -o-box-sizing: border-box;    box-sizing: border-box;    -webkit-transform: translate3d(0, 0, 0);    -moz-transform: translate3d(0, 0, 0);    -ms-transform: translate3d(0, 0, 0);    -o-transform: translate3d(0, 0, 0);    transform: translate3d(0, 0, 0);    max-width: 200px;    position: absolute;    z-index: 2000;    display: block;    top: 0;    right: 100%;    height: 100%;    width: 100%;    /* linear-gradient(to right, #3494e6, #ec6ead) */    background: linear-gradient(to right, #43cea2, #3866ca);    animation: gradient 2s ease infinite;    background-size: 200%}.pace.pace-inactive {    opacity: 0;    transition: .3s;    top: -8px}]]></content>
+        <content type="html"><![CDATA[@font-face {    /* 为载入的字体取名字(随意) */    font-family: 'Consola';    /* 字体文件地址(相对或者绝对路径都可以) */    src: url(/font/consola.ttf);    /* 定义加粗样式(加粗多少) */    font-weight: normal;    /* 定义字体样式(斜体/非斜体) */    font-style: normal;    /* 定义显示样式 */    font-display: block;  }@font-face {    /* 为载入的字体取名字(随意) */    font-family: 'TTBZ';    /* 字体文件地址(相对或者绝对路径都可以) */    src: url(/font/ttboz.ttf);    /* 定义加粗样式(加粗多少) */    font-weight: normal;    /* 定义字体样式(斜体/非斜体) */    font-style: normal;    /* 定义显示样式 */    font-display: block;  }]]></content>
       
     </entry>
     
@@ -220,17 +220,6 @@
     
     <entry>
       <title></title>
-      <link href="/js/readPercent.js"/>
-      <url>/js/readPercent.js</url>
-      
-        <content type="html"><![CDATA[window.onscroll = percent;// 执行函数// 页面百分比function percent() {    let a = document.documentElement.scrollTop || window.pageYOffset, // 卷去高度        b = Math.max(document.body.scrollHeight, document.documentElement.scrollHeight, document.body.offsetHeight, document.documentElement.offsetHeight, document.body.clientHeight, document.documentElement.clientHeight) - document.documentElement.clientHeight, // 整个网页高度        result = Math.round(a / b * 100), // 计算百分比        up = document.querySelector("#go-up") // 获取按钮    if (result <= 95) {        up.childNodes[0].style.display = 'none'        up.childNodes[1].style.display = 'block'        up.childNodes[1].innerHTML = result;    } else {        up.childNodes[1].style.display = 'none'        up.childNodes[0].style.display = 'block'    }}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
       <link href="/js/fps.js"/>
       <url>/js/fps.js</url>
       
@@ -253,10 +242,10 @@
     
     <entry>
       <title></title>
-      <link href="/js/runtime.js"/>
-      <url>/js/runtime.js</url>
+      <link href="/js/readPercent.js"/>
+      <url>/js/readPercent.js</url>
       
-        <content type="html"><![CDATA[var now = new Date();function createtime() {  // 当前时间  now.setTime(now.getTime() + 1000);  var start = new Date("08/01/2022 00:00:00"); // 旅行者1号开始计算的时间  var dis = Math.trunc(23400000000 + ((now - start) / 1000) * 17); // 距离=秒数*速度 记住转换毫秒  var unit = (dis / 149600000).toFixed(6);  // 天文单位  var grt = new Date("03/26/2023 00:00:00");// 网站诞生时间  var days = (now - grt) / 1e3 / 60 / 60 / 24,    dnum = Math.floor(days),    hours = (now - grt) / 1e3 / 60 / 60 - 24 * dnum,    hnum = Math.floor(hours);  1 == String(hnum).length && (hnum = "0" + hnum);  var minutes = (now - grt) / 1e3 / 60 - 1440 * dnum - 60 * hnum,    mnum = Math.floor(minutes);  1 == String(mnum).length && (mnum = "0" + mnum);  var seconds = (now - grt) / 1e3 - 86400 * dnum - 3600 * hnum - 60 * mnum,    snum = Math.round(seconds);  1 == String(snum).length && (snum = "0" + snum);  let currentTimeHtml = "";  (currentTimeHtml =    hnum < 18 && hnum >= 9    ? `<img class='boardsign' src='https://sourcebucket.s3.ladydaily.com/badge/F小屋-科研摸鱼中.svg' title='什么时候能够实现财富自由呀~'><br> <div style="font-size:13px;font-weight:bold">本站居然运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${dis} 千米，约为 ${unit} 个天文单位 🚀</div>`    : `<img class='boardsign' src='https://sourcebucket.s3.ladydaily.com/badge/F小屋-下班休息啦.svg' title='下班了就该开开心心地玩耍~'><br> <div style="font-size:13px;font-weight:bold">本站居然运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${dis} 千米，约为 ${unit} 个天文单位 🚀</div>`),    document.getElementById("workboard") &&    (document.getElementById("workboard").innerHTML = currentTimeHtml);}// 设置重复执行函数，周期1000mssetInterval(() => {  createtime();}, 1000);]]></content>
+        <content type="html"><![CDATA[window.onscroll = percent;// 执行函数// 页面百分比function percent() {    let a = document.documentElement.scrollTop || window.pageYOffset, // 卷去高度        b = Math.max(document.body.scrollHeight, document.documentElement.scrollHeight, document.body.offsetHeight, document.documentElement.offsetHeight, document.body.clientHeight, document.documentElement.clientHeight) - document.documentElement.clientHeight, // 整个网页高度        result = Math.round(a / b * 100), // 计算百分比        up = document.querySelector("#go-up") // 获取按钮    if (result <= 95) {        up.childNodes[0].style.display = 'none'        up.childNodes[1].style.display = 'block'        up.childNodes[1].innerHTML = result;    } else {        up.childNodes[1].style.display = 'none'        up.childNodes[0].style.display = 'block'    }}]]></content>
       
     </entry>
     
@@ -264,10 +253,10 @@
     
     <entry>
       <title></title>
-      <link href="/js/sun_moon.js"/>
-      <url>/js/sun_moon.js</url>
+      <link href="/js/runtime.js"/>
+      <url>/js/runtime.js</url>
       
-        <content type="html"><![CDATA[function switchNightMode() {    document.querySelector('body').insertAdjacentHTML('beforeend', '<div class="Cuteen_DarkSky"><div class="Cuteen_DarkPlanet"><div id="sun"></div><div id="moon"></div></div></div>'),        setTimeout(function () {            document.querySelector('body').classList.contains('DarkMode') ? (document.querySelector('body').classList.remove('DarkMode'), localStorage.setItem('isDark', '0'), document.getElementById('modeicon').setAttribute('xlink:href', '#icon-moon')) : (document.querySelector('body').classList.add('DarkMode'), localStorage.setItem('isDark', '1'), document.getElementById('modeicon').setAttribute('xlink:href', '#icon-sun')),                setTimeout(function () {                    document.getElementsByClassName('Cuteen_DarkSky')[0].style.transition = 'opacity 3s';                    document.getElementsByClassName('Cuteen_DarkSky')[0].style.opacity = '0';                    setTimeout(function () {                        document.getElementsByClassName('Cuteen_DarkSky')[0].remove();                    }, 1e3);                }, 2e3)        })    const nowMode = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light'    if (nowMode === 'light') {        // 先设置太阳月亮透明度        document.getElementById("sun").style.opacity = "1";        document.getElementById("moon").style.opacity = "0";        setTimeout(function () {            document.getElementById("sun").style.opacity = "0";            document.getElementById("moon").style.opacity = "1";        }, 1000);        activateDarkMode()        saveToLocal.set('theme', 'dark', 2)        // GLOBAL_CONFIG.Snackbar !== undefined && btf.snackbarShow(GLOBAL_CONFIG.Snackbar.day_to_night)        document.getElementById('modeicon').setAttribute('xlink:href', '#icon-sun')        // 延时弹窗提醒        setTimeout(() => {            new Vue({                data: function () {                    this.$notify({                        title: "关灯啦🌙",                        message: "当前已成功切换至夜间模式！",                        position: 'top-left',                        offset: 50,                        showClose: true,                        type: "success",                        duration: 5000                    });                }            })        }, 2000)    } else {        // 先设置太阳月亮透明度        document.getElementById("sun").style.opacity = "0";        document.getElementById("moon").style.opacity = "1";        setTimeout(function () {            document.getElementById("sun").style.opacity = "1";            document.getElementById("moon").style.opacity = "0";        }, 1000);                activateLightMode()        saveToLocal.set('theme', 'light', 2)        document.querySelector('body').classList.add('DarkMode'), document.getElementById('modeicon').setAttribute('xlink:href', '#icon-moon')        setTimeout(() => {            new Vue({                data: function () {                    this.$notify({                        title: "开灯啦🌞",                        message: "当前已成功切换至白天模式！",                        position: 'top-left',                        offset: 50,                        showClose: true,                        type: "success",                        duration: 5000                    });                }            })        }, 2000)    }    // handle some cases    typeof utterancesTheme === 'function' && utterancesTheme()    typeof FB === 'object' && window.loadFBComment()    window.DISQUS && document.getElementById('disqus_thread').children.length && setTimeout(() => window.disqusReset(), 200)}]]></content>
+        <content type="html"><![CDATA[var now = new Date();function createtime() {  // 当前时间  now.setTime(now.getTime() + 1000);  var start = new Date("08/01/2022 00:00:00"); // 旅行者1号开始计算的时间  var dis = Math.trunc(23400000000 + ((now - start) / 1000) * 17); // 距离=秒数*速度 记住转换毫秒  var unit = (dis / 149600000).toFixed(6);  // 天文单位  var grt = new Date("03/26/2023 00:00:00");// 网站诞生时间  var days = (now - grt) / 1e3 / 60 / 60 / 24,    dnum = Math.floor(days),    hours = (now - grt) / 1e3 / 60 / 60 - 24 * dnum,    hnum = Math.floor(hours);  1 == String(hnum).length && (hnum = "0" + hnum);  var minutes = (now - grt) / 1e3 / 60 - 1440 * dnum - 60 * hnum,    mnum = Math.floor(minutes);  1 == String(mnum).length && (mnum = "0" + mnum);  var seconds = (now - grt) / 1e3 - 86400 * dnum - 3600 * hnum - 60 * mnum,    snum = Math.round(seconds);  1 == String(snum).length && (snum = "0" + snum);  let currentTimeHtml = "";  (currentTimeHtml =    hnum < 18 && hnum >= 9    ? `<img class='boardsign' src='https://sourcebucket.s3.ladydaily.com/badge/F小屋-科研摸鱼中.svg' title='什么时候能够实现财富自由呀~'><br> <div style="font-size:13px;font-weight:bold">本站居然运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${dis} 千米，约为 ${unit} 个天文单位 🚀</div>`    : `<img class='boardsign' src='https://sourcebucket.s3.ladydaily.com/badge/F小屋-下班休息啦.svg' title='下班了就该开开心心地玩耍~'><br> <div style="font-size:13px;font-weight:bold">本站居然运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${dis} 千米，约为 ${unit} 个天文单位 🚀</div>`),    document.getElementById("workboard") &&    (document.getElementById("workboard").innerHTML = currentTimeHtml);}// 设置重复执行函数，周期1000mssetInterval(() => {  createtime();}, 1000);]]></content>
       
     </entry>
     
@@ -318,11 +307,11 @@
     
     
     <entry>
-      <title>tags</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title></title>
+      <link href="/js/sun_moon.js"/>
+      <url>/js/sun_moon.js</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[function switchNightMode() {    document.querySelector('body').insertAdjacentHTML('beforeend', '<div class="Cuteen_DarkSky"><div class="Cuteen_DarkPlanet"><div id="sun"></div><div id="moon"></div></div></div>'),        setTimeout(function () {            document.querySelector('body').classList.contains('DarkMode') ? (document.querySelector('body').classList.remove('DarkMode'), localStorage.setItem('isDark', '0'), document.getElementById('modeicon').setAttribute('xlink:href', '#icon-moon')) : (document.querySelector('body').classList.add('DarkMode'), localStorage.setItem('isDark', '1'), document.getElementById('modeicon').setAttribute('xlink:href', '#icon-sun')),                setTimeout(function () {                    document.getElementsByClassName('Cuteen_DarkSky')[0].style.transition = 'opacity 3s';                    document.getElementsByClassName('Cuteen_DarkSky')[0].style.opacity = '0';                    setTimeout(function () {                        document.getElementsByClassName('Cuteen_DarkSky')[0].remove();                    }, 1e3);                }, 2e3)        })    const nowMode = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light'    if (nowMode === 'light') {        // 先设置太阳月亮透明度        document.getElementById("sun").style.opacity = "1";        document.getElementById("moon").style.opacity = "0";        setTimeout(function () {            document.getElementById("sun").style.opacity = "0";            document.getElementById("moon").style.opacity = "1";        }, 1000);        activateDarkMode()        saveToLocal.set('theme', 'dark', 2)        // GLOBAL_CONFIG.Snackbar !== undefined && btf.snackbarShow(GLOBAL_CONFIG.Snackbar.day_to_night)        document.getElementById('modeicon').setAttribute('xlink:href', '#icon-sun')        // 延时弹窗提醒        setTimeout(() => {            new Vue({                data: function () {                    this.$notify({                        title: "关灯啦🌙",                        message: "当前已成功切换至夜间模式！",                        position: 'top-left',                        offset: 50,                        showClose: true,                        type: "success",                        duration: 5000                    });                }            })        }, 2000)    } else {        // 先设置太阳月亮透明度        document.getElementById("sun").style.opacity = "0";        document.getElementById("moon").style.opacity = "1";        setTimeout(function () {            document.getElementById("sun").style.opacity = "1";            document.getElementById("moon").style.opacity = "0";        }, 1000);                activateLightMode()        saveToLocal.set('theme', 'light', 2)        document.querySelector('body').classList.add('DarkMode'), document.getElementById('modeicon').setAttribute('xlink:href', '#icon-moon')        setTimeout(() => {            new Vue({                data: function () {                    this.$notify({                        title: "开灯啦🌞",                        message: "当前已成功切换至白天模式！",                        position: 'top-left',                        offset: 50,                        showClose: true,                        type: "success",                        duration: 5000                    });                }            })        }, 2000)    }    // handle some cases    typeof utterancesTheme === 'function' && utterancesTheme()    typeof FB === 'object' && window.loadFBComment()    window.DISQUS && document.getElementById('disqus_thread').children.length && setTimeout(() => window.disqusReset(), 200)}]]></content>
       
     </entry>
     
@@ -332,6 +321,17 @@
       <title>音乐</title>
       <link href="/music/index.html"/>
       <url>/music/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>tags</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       

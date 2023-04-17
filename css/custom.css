@@ -329,7 +329,7 @@ div#post {
 /* 页面样式-抹角等 */
 :root {
   --trans-light: rgba(255, 255, 255, 0.88);
-  --trans-dark: rgba(25, 25, 25, 0.88);
+  --trans-dark: rgba(25, 25, 25, 0.66);
   --border-style: 1px solid rgb(169, 169, 169);
   --backdrop-filter: blur(5px) saturate(150%);
 }
@@ -398,11 +398,11 @@ div#archive {
 
 /* 夜间模式下的阅读模式 */
 [data-theme="dark"] .read-mode #aside-content .card-widget {
-  background: rgba(25, 25, 25, 0.9) !important;
+  background: rgba(34, 34, 34, 0.9) !important;
   color: #ffffff;
 }
 [data-theme="dark"] .read-mode div#post {
-  background: rgba(25, 25, 25, 0.9) !important;
+  background: rgba(32, 32, 32, 0.9) !important;
   color: #ffffff;
 }
 

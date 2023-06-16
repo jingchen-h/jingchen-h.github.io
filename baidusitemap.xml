@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://blog.jingchen.love//%5Bobject%20Object%5D/2023/06/16/8-k8s-%E6%8C%81%E4%B9%85%E5%8C%96PV-PVC%EF%BC%8CConfigMap%E6%96%87%E4%BB%B6%E5%AD%98%E5%82%A8/</loc>
+    <lastmod>2023-06-16</lastmod>
+  </url>
+  <url>
     <loc>https://blog.jingchen.love//%5Bobject%20Object%5D/2023/06/16/linux%E5%9F%BA%E7%A1%80-Linux%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/</loc>
     <lastmod>2023-06-16</lastmod>
   </url>
